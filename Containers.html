@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <title>Containers, Breakpoints, Grid systems</title>
+  </head>
+  <body>
+    <!-- fixed width container, max width can be different depending on screen size -->
+    <div class="container border-2">
+      <h1>Container Example</h1>
+      <p>This is a container.</p>
+    </div>
+    <div class="container p-5" style="border-width: 1px; border-style: solid">
+      <h1>Container Example w. padding</h1>
+    </div>
+    <br />
+    <!-- full width, always span the entire screen  -->
+    <div class="container-fluid" style="border-width: 1px; border-style: solid">
+      <h1>Fluid Container Example</h1>
+      <p>This is a fluid container.</p>
+    </div>
+    <br />
+    <h1>Responsive Container Sizes</h1>
+    <p>Max width can change, is dependant upon screen size</p>
+    <div class="container-sm border">
+      <p>Small Container> 576px</p>
+    </div>
+    <div class="container-md bg-dark text-white">
+      <p>Medium Container >768px</p>
+    </div>
+    <div class="container-lg bg-primary text-black">
+      <p>Large Container 992px</p>
+    </div>
+    <div class="container-xl bg-dark text-white">
+      <p>Extra-Large Container 1200px</p>
+      </div>
+      <div class="container-xxl bg-primary text-black">
+        <p>Extra-Extra-Large Container 1400px</p>
+      </div>
+    </div>
+  </body>
+</html>

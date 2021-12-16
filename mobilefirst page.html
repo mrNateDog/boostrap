@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <style>
+      @media (max-width: 576px) {
+        .card-deck {
+          display: none;
+           Small devices (tablets, 768px and up)
+        }
+      }
+    </style>
+    <title>Ex. Mobile First Page</title>
+  </head>
+  <body>
+    <div class="container-sm">
+      <div class="alert alert-danger alert-dismissible fade show">
+        <button type="button" class="close" data-dismiss="alert">
+          &times;
+        </button>
+        This is a test of the emergency broadcasting system
+      </div>
+      <div class="jumbotron text-center pb-1">
+        <h1>Happy People</h1>
+        <p>Smiles are Contagious!</p>
+      </div>
+      <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+        <!-- Hamburger Menu -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#collapsibleNavbar"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Can add content here -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 1</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 2</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Page 3</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <div class="card-deck">
+        <div class="card" style="width: 500px">
+          <img
+            class="card-img-top img-fluid"
+            src="https://images.ctfassets.net/9bjqpjb3whtl/4Mti2oz6ANJgj20LjGyEU1/ca8041e435e49d9b34d9921848507a83/girl-smiling-holding-aligner-outside-mouth.jpg"
+            alt="Card image"
+          />
+          <div class="card-body">
+            <!-- Example of a badge -->
+
+            <h4 class="card-title">
+              This woman is happy <span class="badge badge-danger">NEW</span>
+            </h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              iste beatae, fugiat sunt facilis ratione quas eos culpa. Vitae
+              magnam labore atque harum suscipit odit, a eius illum nemo
+              mollitia.
+            </p>
+            <a href="#" class="btn btn-dark">More Info</a>
+          </div>
+        </div>
+        <br />
+        <div class="card" style="width: 500px">
+          <img
+            class="card-img-bottom img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbput5zMeKAWZU1S0Y4xzq_Lm0rowfek5nOw&usqp=CAU"
+            alt="boy smiling"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Smiling Boy</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo
+              quisquam nobis ea nulla molestiae voluptatibus iste, ullam
+              voluptates! Autem, enim officia nobis hic explicabo quibusdam
+              officiis perferendis minus soluta rerum?
+            </p>
+            <a href="http://www.google.com" class="btn btn-dark">See Profile</a>
+          </div>
+        </div>
+        <br />
+        <div class="card" style="width: 500px">
+          <img
+            class="card-img-top img-fluid"
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsh4OxjjAN3WWwwKYBNwbLmbvSySiGv0wtw&usqp=CAU"
+            alt="Smiling Man"
+          />
+          <div class="card-body">
+            <h4 class="card-title">Stretched link card</h4>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti
+              iste beatae, fugiat sunt facilis ratione quas eos culpa. Vitae
+              magnam labore atque harum suscipit odit, a eius illum nemo
+              mollitia.
+              <br />
+              <a href="#" class="btn btn-dark stretched-link">More Here</a>
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="jumbotron text-center bg-dark text-white">
+        <p>Nathan McClure 2021</p>
+      </div>
+    </div>
+  </body>
+</html>
